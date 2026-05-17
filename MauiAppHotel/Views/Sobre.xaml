@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="MidnightBlue">
+
+
+
+    <VerticalStackLayout
+            Padding="20"
+            Spacing="20">
+        <Label
+                Text="Aplicativo MUAI"
+                FontFamily="BungeeRegular"
+                FontSize="30"
+                HorizontalOptions="Center"
+                TextColor="SkyBlue" />
+
+
+        <Label
+                Text="Aplicativo de hospedagem desenvolvido com .NET MAUI"
+                FontSize="18"
+                HorizontalTextAlignment="Center"/>
+
+        <Frame  BackgroundColor="#1E293B"
+                CornerRadius="15">
+
+            <VerticalStackLayout Spacing="20">
+
+                <VerticalStackLayout Spacing="5">
+                    <Label
+                            Text="Desenvolvedor"
+                            FontFamily="BungeeRegular"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            TextColor="SkyBlue" />
+
+                    <Label
+                            Text="Arthur Aquiles Bento"
+                            FontSize="17"/>
+
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="5">
+                    <Label
+                            Text="Ano de Desenvolvimento"
+                            FontFamily="BungeeRegular"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            TextColor="SkyBlue" />
+
+                    <Label
+                            Text="2026"
+                            FontSize="18"/>
+
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Spacing="5">
+                    <Label
+                            Text="Tecnologias Utilizadas"
+                            FontFamily="BungeeRegular"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            TextColor="SkyBlue" />
+
+                    <Label
+                            Text=".NET MAUI"
+                            FontSize="18" />
+
+                    <Label
+                            Text="C#"
+                            FontSize="18" />
+
+                    <Label
+                            Text="XAML"
+                            FontSize="18" />
+
+                </VerticalStackLayout>
+
+            </VerticalStackLayout>
+
+        </Frame>
+
+    </VerticalStackLayout>
+</ContentPage>
