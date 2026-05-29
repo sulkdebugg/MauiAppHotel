@@ -21,7 +21,7 @@
 
                     <Label Grid.Row="0" Grid.Column="1"
                            TextColor="DarkViolet"
-                           Text="{Binding Value}"
+                           Text="{Binding Source={x:Reference stp_adultos}, Path=Value}"
                            BindingContext="{x:Reference stp_adultos}"/>
 
                     <Stepper Grid.Row="0" Grid.Column="2"
@@ -35,7 +35,7 @@
 
                     <Label Grid.Row="1" Grid.Column="1"
                            TextColor="DarkViolet"
-                           Text="{Binding Value}"
+                           Text="{Binding Source={x:Reference stp_criancas}, Path=Value}"
                            BindingContext="{x:Reference stp_criancas}"/>
 
                     <Stepper Grid.Row="1" Grid.Column="2"

@@ -15,14 +15,14 @@
             <HorizontalStackLayout>
                 <HorizontalStackLayout>
                     <Label Text="Adultos:" />
-                    <Label Text=" 2" TextColor="{StaticResource Primary}"/>
+                    <Label Text="2" TextColor="{StaticResource Primary}"/>
 
 
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout>
-                    <Label Text="Crianças:" />
-                    <Label Text=" 1" TextColor="{StaticResource Primary}"/>
+                    <Label Text="Crianças: a" />
+                    <Label Text="1" TextColor="{StaticResource Primary}"/>
 
                 </HorizontalStackLayout>
             </HorizontalStackLayout>
